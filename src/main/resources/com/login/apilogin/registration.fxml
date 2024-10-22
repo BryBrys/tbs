@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.login.apilogin.RegistrationController">
+	<children>
+		<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-background-color: #fff;">
+			<left>
+				<Pane prefHeight="730.0" prefWidth="584.0" style="-fx-background-color: #fff;" BorderPane.alignment="CENTER">
+					<children>
+						<ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../../../img/Logo_V1._Kontur_Weisseps.png" />
+							</image>
+						</ImageView>
+					</children>
+				</Pane>
+			</left>
+			<center>
+				<Pane prefHeight="730.0" prefWidth="657.0" style="-fx-background-color: #3ab7b7;" BorderPane.alignment="CENTER">
+					<children>
+						<StackPane layoutX="29.0" layoutY="56.0" prefHeight="611.0" prefWidth="591.0">
+							<children>
+								<Pane prefHeight="614.0" prefWidth="629.0">
+									<children>
+										<TextField fx:id="regEmailTextField" layoutX="91.0" layoutY="100.0" prefHeight="65.0" prefWidth="450.0" promptText="Email" style="-fx-background-radius: 15;">
+											<font>
+												<Font size="24.0" />
+											</font>
+										</TextField>
+										<Button fx:id="btn_reg_registrieren" layoutX="340.0" layoutY="525.0" mnemonicParsing="false" onAction="#registrierung" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-background-radius: 25;" text="Registrieren" textFill="#3ab7b7">
+											<font>
+												<Font name="System Bold" size="24.0" />
+											</font>
+										</Button>
+										<Label layoutX="197.0" layoutY="-26.0" prefHeight="53.0" prefWidth="237.0" text="Registrierung" textFill="WHITE">
+											<font>
+												<Font name="System Bold" size="36.0" />
+											</font>
+										</Label>
+										<Button fx:id="btn_reg_abbrechen" layoutX="90.0" layoutY="525.0" mnemonicParsing="false" onAction="#btnLoginSwitch" prefHeight="65.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-background-radius: 25;" text="Abbrechen" textFill="#3ab7b7">
+											<font>
+												<Font name="System Bold" size="24.0" />
+											</font>
+										</Button>
+										<TextField fx:id="regFirstNameTextField" layoutX="91.0" layoutY="200.0" prefHeight="65.0" prefWidth="450.0" promptText="Vorname" style="-fx-background-radius: 15;">
+											<font>
+												<Font size="24.0" />
+											</font>
+										</TextField>
+                              <Label fx:id="registerMessageLabel" alignment="CENTER" layoutX="140.0" layoutY="54.0" prefHeight="32.0" prefWidth="352.0" textAlignment="CENTER" textFill="#fc0000">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <TextField fx:id="regLastNameTextField" layoutX="91.0" layoutY="300.0" prefHeight="65.0" prefWidth="450.0" promptText="Nachname" style="-fx-background-radius: 15;">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="regPasswordTextField" layoutX="91.0" layoutY="400.0" prefHeight="65.0" prefWidth="450.0" promptText="Passwort" style="-fx-background-radius: 15;">
+                                 <font>
+                                    <Font size="24.0" />
+                                 </font>
+                              </TextField>
+										<PasswordField fx:id="regPasswordPasswordField" layoutX="91.0" layoutY="400.0" prefHeight="65.0" prefWidth="450.0" promptText="Passwort" style="-fx-background-radius: 15;">
+											<font>
+												<Font size="24.0" />
+											</font>
+										</PasswordField>
+                              <CheckBox fx:id="regPasswordCheckbox" layoutX="91.0" layoutY="472.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="141.0" text="Passwort anzeigen">
+                                 <font>
+                                    <Font size="13.0" />
+                                 </font>
+                              </CheckBox>
+                              <Label layoutX="91.0" layoutY="77.0" text="Email" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="91.0" layoutY="174.0" text="Vorname" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="91.0" layoutY="273.0" text="Nachname" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="91.0" layoutY="373.0" prefHeight="20.0" prefWidth="90.0" text="Passwort" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="14.0" />
+                                 </font>
+                              </Label>
+									</children>
+								</Pane>
+							</children>
+						</StackPane>
+					</children>
+				</Pane>
+			</center>
+		</BorderPane>
+	</children>
+</AnchorPane>

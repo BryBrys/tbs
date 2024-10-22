@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="741.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.login.apilogin.HotelDetailsController">
+   <Pane layoutX="7.0" layoutY="6.0" prefHeight="729.0" prefWidth="706.0">
+      <children>
+         <Pane layoutX="15.0" layoutY="107.0" prefHeight="454.0" prefWidth="679.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+               <Label alignment="CENTER" layoutX="140.0" layoutY="14.0" prefHeight="41.0" prefWidth="400.0" text="Hotel Informationen" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="30.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_hotelName" layoutX="30.0" layoutY="70.0" text="Hotel Name:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_amenities" layoutX="30.0" layoutY="120.0" text="Amenities:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_description" layoutX="30.0" layoutY="170.0" text="Description:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_rooms" layoutX="30.0" layoutY="285.0" text="Rooms:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_bedType" layoutX="30.0" layoutY="335.0" text="Bed Type:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_beds" layoutX="30.0" layoutY="385.0" text="Number of Beds:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <TextFlow fx:id="desc_flow" layoutX="32.0" layoutY="195.0" prefHeight="92.0" prefWidth="540.0" />
+            </children>
+         </Pane>
+         <Pane layoutX="14.0" layoutY="577.0" prefHeight="147.0" prefWidth="679.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+               <Button fx:id="btn_book" layoutX="450.0" layoutY="77.0" mnemonicParsing="false" onAction="#handleBook" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Buchen" textFill="#3ab7b7">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Button>
+               <Button fx:id="btn_cancel" layoutX="33.0" layoutY="77.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Abbrechen" textFill="#3ab7b7">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Button>
+               <Label fx:id="lbl_price" layoutX="263.0" layoutY="24.0" text="Preis:" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+         <Pane layoutX="15.0" layoutY="4.0" prefHeight="92.0" prefWidth="679.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+                 <Label alignment="CENTER" layoutX="219.0" layoutY="20.0" prefHeight="41.0" prefWidth="241.0" text="Hotel Details" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+      </children>
+   </Pane>
+</AnchorPane>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/21"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.login.apilogin.BuchungenController">
+	<Pane prefHeight="658.0" prefWidth="625.0"
+		style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+		<children>
+			<Label layoutX="200.0" layoutY="14.0" text="Ihre Buchungen"
+				textFill="WHITE">
+				<font>
+					<Font size="36.0" />
+				</font>
+			</Label>
+
+			<ListView fx:id="listViewBuchungen" layoutX="25.0"
+				layoutY="80.0" prefHeight="450.0" prefWidth="575.0" />
+
+			<Button fx:id="btn_zurueck" layoutX="25.0" layoutY="550.0"
+				onAction="#handleZurueck" prefHeight="50.0" prefWidth="120.0"
+				style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-background-radius: 10; -fx-border-radius: 10;"
+				text="Abbrechen" textFill="#3ab7b7" />
+            
+			<Button layoutX="480.0" layoutY="550.0"
+				onAction="#handleDeleteBooking" prefHeight="50.0" prefWidth="120.0"
+				style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-background-radius: 10; -fx-border-radius: 10;"
+				text="Delete" textFill="#3ab7b7" />
+
+		</children>
+	</Pane>
+</AnchorPane>

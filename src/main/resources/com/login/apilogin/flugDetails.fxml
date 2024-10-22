@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="741.0" prefWidth="718.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.login.apilogin.FlugDetailsController">
+   <Pane layoutX="7.0" layoutY="6.0" prefHeight="729.0" prefWidth="706.0">
+      <children>
+         <Pane layoutX="15.0" layoutY="107.0" prefHeight="454.0" prefWidth="334.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+                 
+                 <!-- Labels for flight details -->
+                 <Label fx:id="lbl_outDepDate" layoutX="14.0" layoutY="90.0" text="Abflugdatum:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outArrDate" layoutX="14.0" layoutY="130.0" text="Ankunftsdatum:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outAirline" layoutX="14.0" layoutY="170.0" text="Airline:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outFlightnumber" layoutX="14.0" layoutY="210.0" text="Flugnummer:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outDepTime" layoutX="14.0" layoutY="250.0" text="Abflugszeit:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outArrTime" layoutX="14.0" layoutY="290.0" text="Ankunftszeit:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outDepLoc" layoutX="14.0" layoutY="330.0" text="Abflugsort:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+                 <Label fx:id="lbl_outArrLoc" layoutX="14.0" layoutY="370.0" text="Ankunftsort:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label alignment="CENTER" layoutX="47.0" layoutY="14.0" prefHeight="41.0" prefWidth="241.0" text="Hinflug" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="30.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+         <Pane layoutX="360.0" layoutY="106.0" prefHeight="454.0" prefWidth="334.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+               <Label fx:id="lbl_retDepDate" layoutX="14.0" layoutY="90.0" text="Abflugdatum:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retArrDate" layoutX="14.0" layoutY="130.0" text="Ankunftsdatum:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retAirline" layoutX="14.0" layoutY="170.0" text="Airline:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retFlightnumber" layoutX="14.0" layoutY="210.0" text="Flugnummer:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retDepTime" layoutX="14.0" layoutY="250.0" text="Abflugszeit:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retArrTime" layoutX="14.0" layoutY="290.0" text="Ankunftszeit:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retDepLoc" layoutX="14.0" layoutY="330.0" text="Abflugsort:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label fx:id="lbl_retArrLoc" layoutX="14.0" layoutY="370.0" text="Ankunftsort:" textFill="WHITE">
+                  <font>
+                     <Font size="20.0" />
+                  </font>
+               </Label>
+               <Label alignment="CENTER" layoutX="47.0" layoutY="14.0" prefHeight="41.0" prefWidth="241.0" text="Rückflug" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="30.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+         <Pane layoutX="14.0" layoutY="577.0" prefHeight="147.0" prefWidth="679.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+               <Button fx:id="btn_book" layoutX="450.0" layoutY="77.0" mnemonicParsing="false" onAction="#handleBook" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Buchen" textFill="#3ab7b7">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Button>
+               <Button fx:id="btn_cancel" layoutX="33.0" layoutY="77.0" mnemonicParsing="false" onAction="#handleCancel" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Abbrechen" textFill="#3ab7b7">
+                  <font>
+                     <Font name="System Bold" size="18.0" />
+                  </font>
+               </Button>
+                 <Label fx:id="lbl_price" layoutX="176.0" layoutY="23.0" text="Preis:" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="24.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+         <Pane layoutX="15.0" layoutY="4.0" prefHeight="92.0" prefWidth="679.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 15;">
+            <children>
+                 
+                 <Label alignment="CENTER" layoutX="219.0" layoutY="20.0" prefHeight="41.0" prefWidth="241.0" text="Flug Details" textAlignment="CENTER" textFill="WHITE">
+                  <font>
+                     <Font name="System Bold" size="36.0" />
+                  </font>
+               </Label>
+            </children>
+         </Pane>
+      </children>
+   </Pane>
+</AnchorPane>

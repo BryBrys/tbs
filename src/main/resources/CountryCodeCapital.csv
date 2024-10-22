@@ -1,0 +1,252 @@
+Country,Short,Capital
+Afghanistan,af,Kabul
+Albania,al,Tirana
+Algeria,dz,Algiers
+American Samoa,as,Pago Pago
+Andorra,ad,Andorra
+Angola,ao,Luanda
+Anguilla,ai,The Valley
+Antarctica,aq,None
+Antigua and Barbuda,ag,St. Johns
+Argentina,ar,Buenos Aires
+Armenia,am,Yerevan
+Aruba,aw,Oranjestad
+Australia,au,Canberra
+Austria,at,Vienna
+Azerbaijan,az,Baku
+Bahamas,bs,Nassau
+Bahrain,bh,Al-Manamah
+Bangladesh,bd,Dhaka
+Barbados,bb,Bridgetown
+Belarus,by,Minsk
+Belgium,be,Brussels
+Belize,bz,Belmopan
+Benin,bj,Porto-Novo
+Bermuda,bm,Hamilton
+Bhutan,bt,Thimphu
+Bolivia,bo,La Paz
+Bonaire, Sint Eustatius and Saba,bq,Kralendijk
+Bosnia-Herzegovina,ba,Sarajevo
+Botswana,bw,Gaborone
+Bouvet Island,bv,None
+Brazil,br,Brasilia
+British Indian Ocean Territory,io,None
+Brunei Darussalam,bn,Bandar Seri Begawan
+Bulgaria,bg,Sofia
+Burkina Faso,bf,Ouagadougou
+Burundi,bi,Bujumbura
+Cabo Verde,cv,Praia
+Cambodia,kh,Phnom Penh
+Cameroon,cm,Yaounde
+Canada,ca,Ottawa
+Cayman Islands,ky,Georgetown
+Central African Republic,cf,Bangui
+Chad,td,N'Djamena
+Chile,cl,Santiago
+China,cn,Beijing
+Christmas Island,cx,The Settlement
+Cocos (Keeling) Islands,cc,West Island
+Colombia,co,Bogota
+Comoros,km,Moroni
+Congo,cg,Brazzaville
+Congo, Dem. Republic,cd,Kinshasa
+Cook Islands,ck,Avarua
+Costa Rica,cr,San Jose
+Croatia,hr,Zagreb
+Cuba,cu,Havana
+Curaçao,cw,Willemstad
+Cyprus,cy,Nicosia
+Czechia,cz,Prague
+Côte d'Ivoire,ci,Abidjan
+Denmark,dk,Copenhagen
+Djibouti,dj,Djibouti
+Dominica,dm,Roseau
+Dominican Rep.,do,Santo Domingo
+Ecuador,ec,Quito
+Egypt,eg,Cairo
+El Salvador,sv,San Salvador
+Equatorial Guinea,gq,Malabo
+Eritrea,er,Asmara
+Estonia,ee,Tallinn
+Eswatini,sz,Mbabane
+Ethiopia,et,Addis Ababa
+European Union,eu,Brussels
+Falkland Islands (Malvinas),fk,Stanley
+Faroe Islands,fo,Torshavn
+Fiji,fj,Suva
+Finland,fi,Helsinki
+France,fr,Paris
+French Guiana,gf,Cayenne
+French Polynesia,pf,Papeete
+French Southern Territories,tf,None
+Gabon,ga,Libreville
+Gambia,gm,Banjul
+Georgia,ge,Tbilisi
+Germany,de,Berlin
+Ghana,gh,Accra
+Gibraltar,gi,Gibraltar
+Great Britain,gb,London
+Greece,gr,Athens
+Greenland,gl,Godthab
+Grenada,gd,St. George's
+Guadeloupe,gp,Basse-Terre
+Guam,gu,Agana
+Guatemala,gt,Guatemala City
+Guernsey,gg,St. Peter Port
+Guinea,gn,Conakry
+Guinea-Bissau,gw,Bissau
+Guyana,gy,Georgetown
+Haiti,ht,Port-au-Prince
+Heard Island and,hm,None
+McDonald Islands,,
+Holy See,va,Vatican City
+Honduras,hn,Tegucigalpa
+Hong Kong,hk,Victoria
+Hungary,hu,Budapest
+Iceland,is,Reykjavik
+India,in,New Delhi
+Indonesia,id,Jakarta
+Iran,ir,Tehran
+Iraq,iq,Baghdad
+Ireland,ie,Dublin
+Isle of Man,im,Douglas
+Israel,il,Jerusalem
+Italy,it,Rome
+Jamaica,jm,Kingston
+Japan,jp,Tokyo
+Jersey,je,Saint Helier
+Jordan,jo,Amman
+Kazakhstan,kz,Astana
+Kenya,ke,Nairobi
+Kiribati,ki,Tarawa
+Korea, N.,kp,Pyongyang
+Korea, S.,kr,Seoul
+Kosovo,xk,Priština
+Kuwait,kw,Kuwait City
+Kyrgyzstan,kg,Bishkek
+Lao,la,Vientiane
+Latvia,lv,Riga
+Lebanon,lb,Beirut
+Lesotho,ls,Maseru
+Liberia,lr,Monrovia
+Libya,ly,Tripoli
+Liechtenstein,li,Vaduz
+Lithuania,lt,Vilnius
+Luxembourg,lu,Luxembourg
+Macao,mo,Macau
+Madagascar,mg,Antananarivo
+Malawi,mw,Lilongwe
+Malaysia,my,Kuala Lumpur
+Maldives,mv,Male
+Mali,ml,Bamako
+Malta,mt,Valletta
+Marshall Islands,mh,Majuro
+Martinique,mq,Fort-de-France
+Mauritania,mr,Nouakchott
+Mauritius,mu,Port Louis
+Mayotte,yt,Dzaoudzi
+Mexico,mx,Mexico City
+Micronesia,fm,Palikir
+Moldova,md,Kishinev
+Monaco,mc,Monaco
+Mongolia,mn,Ulan Bator
+Montenegro,me,Podgorica
+Montserrat,ms,Plymouth
+Morocco,ma,Rabat
+Mozambique,mz,Maputo
+Myanmar,mm,Naypyidaw
+Namibia,na,Windhoek
+Nauru,nr,Yaren
+Nepal,np,Kathmandu
+Netherlands,nl,Amsterdam
+New Caledonia,nc,Noumea
+New Zealand,nz,Wellington
+Nicaragua,ni,Managua
+Niger,ne,Niamey
+Nigeria,ng,Lagos
+Niue,nu,Alofi
+Norfolk Island,nf,Kingston
+North Macedonia,mk,Skopje
+Northern Mariana Islands,mp,Saipan
+Norway,no,Oslo
+Oman,om,Muscat
+Pakistan,pk,Islamabad
+Palau,pw,Koror
+Panama,pa,Panama City
+Papua New Guinea,pg,Port Moresby
+Paraguay,py,Asuncion
+Peru,pe,Lima
+Philippines,ph,Manila
+Pitcairn Island,pn,Adamstown
+Poland,pl,Warsaw
+Portugal,pt,Lisbon
+Puerto Rico,pr,San Juan
+Qatar,qa,Doha
+Reunion,re,Saint-Denis
+Romania,ro,Bucharest
+Russia,ru,Moscow
+Rwanda,rw,Kigali
+Saint Barthélemy,bl,Gustavia
+Saint Helena,sh,Jamestown
+Saint Kitts & Nevis,kn,Basseterre
+Saint Lucia,lc,Castries
+Saint Martin (French part),mf,Marigot
+Saint Pierre and Miquelon,pm,St. Pierre
+Saint Vincent & Grenadines,vc,Kingstown
+Samoa,ws,Apia
+San Marino,sm,San Marino
+Sao Tome and Principe,st,Sao Tome
+Saudi Arabia,sa,Riyadh
+Senegal,sn,Dakar
+Serbia,rs,Belgrade
+Seychelles,sc,Victoria
+Sierra Leone,sl,Freetown
+Singapore,sg,Singapore
+Sint Maarten (Dutch part),sx,Philipsburg
+Slovakia,sk,Bratislava
+Slovenia,si,Ljubljana
+Solomon Islands,sb,Honiara
+Somalia,so,Mogadishu
+South Africa,za,Pretoria
+South Georgia &,gs,None
+South Sandwich Islands,,
+South Sudan,ss,Ramciel
+Spain,es,Madrid
+Sri Lanka,lk,Colombo
+Sudan,sd,Khartoum
+Suriname,sr,Paramaribo
+Svalbard and Jan Mayen Islands,sj,Longyearbyen
+Sweden,se,Stockholm
+Switzerland,ch,Bern
+Syria,sy,Damascus
+Taiwan,tw,Taipei
+Tajikistan,tj,Dushanbe
+Tanzania,tz,Dodoma
+Thailand,th,Bangkok
+Timor-Leste,tl,Dili
+Togo,tg,Lome
+Tokelau,tk,None
+Tonga,to,Nuku'alofa
+Trinidad and Tobago,tt,Port of Spain
+Tunisia,tn,Tunis
+Turkey,tr,Ankara
+Turkmenistan,tm,Ashgabat
+Turks and Caicos Islands,tc,Grand Turk
+Tuvalu,tv,Funafuti
+US Minor Outlying Islands,um,None
+USA,us,Washington
+Uganda,ug,Kampala
+Ukraine,ua,Kiev
+United Arab Emirates,ae,Abu Dhabi
+Uruguay,uy,Montevideo
+Uzbekistan,uz,Tashkent
+Vanuatu,vu,Port Vila
+Venezuela,ve,Caracas
+Vietnam,vn,Hanoi
+Virgin Islands (British),vg,Road Town
+Virgin Islands (US),vi,Charlotte Amalie
+Wallis and Futuna Islands,wf,Mata-Utu
+Western Sahara,eh,El Aaiun
+Yemen,ye,San'a
+Zambia,zm,Lusaka
+Zimbabwe,zw,Harare

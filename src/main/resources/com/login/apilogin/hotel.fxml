@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.login.apilogin.HotelController">
+	<children>
+		<BorderPane prefHeight="750.0" prefWidth="1300.0" style="-fx-background-color: #fff;">
+			<center>
+				<Pane prefHeight="750.0" prefWidth="634.0" style="-fx-background-color: #3ab7b7;" BorderPane.alignment="CENTER">
+					<children>
+						<Pane layoutX="265.0" prefHeight="750.0" prefWidth="1035.0" style="-fx-background-color: #fff;">
+							<children>
+								<Pane layoutX="20.0" layoutY="14.0" prefHeight="160.0" prefWidth="1000.0" style="-fx-background-color: #3ab7b7; -fx-background-radius: 10;">
+									<children>
+										<Label layoutX="35.0" layoutY="2.0" text="Stadt" textFill="WHITE">
+											<font>
+												<Font name="System Bold" size="18.0" />
+											</font>
+										</Label>
+										<TextField fx:id="txt_city" layoutX="35.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" promptText="Stadt / Land" style="-fx-background-radius: 5;" />
+										<Label layoutX="845.0" layoutY="2.0" text="Zubehör" textFill="WHITE">
+											<font>
+												<Font name="System Bold" size="18.0" />
+											</font>
+										</Label>
+										<Button fx:id="btn_suche_starten" layoutX="379.0" layoutY="105.0" mnemonicParsing="false" onAction="#handleSucheStarten" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Suche starten" textFill="#3ab7b7">
+											<font>
+												<Font name="System Bold" size="18.0" />
+											</font>
+										</Button>
+                              <Label fx:id="error_lbl" alignment="CENTER" layoutX="279.0" layoutY="73.0" prefHeight="25.0" prefWidth="400.0" textAlignment="CENTER" textFill="RED">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Label>
+                              <CheckBox fx:id="cbx_testdaten" layoutX="595.0" layoutY="117.0" mnemonicParsing="false" selected="true" text="Test Daten" />
+                              <CheckComboBox fx:id="checkComboBox" layoutX="835.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" />
+                              <Label layoutX="198.0" layoutY="2.0" text="Check-In" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="356.0" layoutY="2.0" text="Check-Out" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <DatePicker fx:id="date_checkin" layoutX="198.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" />
+                              <DatePicker fx:id="date_checkout" layoutX="356.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" />
+                              <Label layoutX="685.0" layoutY="2.0" text="Zimmer" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="527.0" layoutY="2.0" text="Erwachsene" textFill="WHITE">
+                                 <font>
+                                    <Font name="System Bold" size="18.0" />
+                                 </font>
+                              </Label>
+                              <ComboBox fx:id="cbx_adults" layoutX="517.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" />
+                              <ComboBox fx:id="cbx_rooms" layoutX="675.0" layoutY="28.0" prefHeight="40.0" prefWidth="140.0" />
+									</children>
+								</Pane>
+								<AnchorPane layoutX="19.0" layoutY="201.0" prefHeight="540.0" prefWidth="1000.0">
+									<children>
+										<ListView fx:id="hotel_list" prefHeight="540.0" prefWidth="1000.0" style="-fx-border-color: #ffffff; -fx-background-color: #ffffff;" />
+									</children>
+								</AnchorPane>
+							</children>
+						</Pane>
+						<ImageView fitHeight="117.0" fitWidth="117.0" layoutX="75.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+							<image>
+								<Image url="@../../../img/Logo_V1._Kontur_Weisseps.png" />
+							</image>
+						</ImageView>
+						<Button layoutX="34.0" layoutY="250.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #fff; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-background-radius: 10; -fx-border-radius: 10;" text="Hotels" textFill="#3ab7b7">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+						<Button fx:id="btn_flugsuche" layoutX="34.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnFlugSwitch" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3ab7b7; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-border-radius: 10;" text="Flüge suchen" textFill="WHITE">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+						<Button fx:id="btn_transfersuche" layoutX="34.0" layoutY="330.0" mnemonicParsing="false" onAction="#btnTransferSwitch" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3ab7b7; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-border-radius: 10;" text="Transfer suchen" textFill="WHITE">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+						<Button fx:id="btn_buchungen" layoutX="34.0" layoutY="410.0" mnemonicParsing="false" onAction="#btnBuchungenSwitch" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3ab7b7; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-border-radius: 10;" text="Meine Buchungen" textFill="WHITE">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+						<Button fx:id="btn_konto" layoutX="33.0" layoutY="490.0" mnemonicParsing="false" onAction="#btnKontoSwitch" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3ab7b7; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-border-radius: 10;" text="Mein Konto" textFill="WHITE">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+						<Button fx:id="btn_abmelden" layoutX="34.0" layoutY="675.0" mnemonicParsing="false" onAction="#btnLoginSwitch" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #3ab7b7; -fx-border-color: white; -fx-border-width: 1; -fx-border-style: solid; -fx-border-radius: 10;" text="Abmelden" textFill="WHITE">
+							<font>
+								<Font name="System Bold" size="18.0" />
+							</font>
+						</Button>
+					</children>
+				</Pane>
+			</center>
+		</BorderPane>
+	</children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+/* Styling the scrollbar of ListView */
+.list-view .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:horizontal .increment-button,
+.list-view .scroll-bar:horizontal .decrement-button,
+.list-view .scroll-bar:vertical .increment-button,
+.list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color: #3ab7b7;
+}
+
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #3ab7b7;
+    -fx-background-radius: 5.0;
+}
+
+.button-custom {
+	-fx-background-color: #fff;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-fill: #3ab7b7;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-font-family: Arial;
+    -fx-pref-width: 150px;
+}
+
+.button-custom:hover {
+    -fx-background-color: #fff;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-text-fill: #3ab7b7;
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-font-family: Arial;
+    -fx-pref-width: 150px;
+}
+
+
+.price-label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+    -fx-font-family: Arial;
+}
